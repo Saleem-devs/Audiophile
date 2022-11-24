@@ -1,0 +1,258 @@
+@media screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+    header{
+        background: url(images/header-tablet.png) no-repeat;
+        text-align: center;
+        background-size: cover;
+    }
+    .hero {
+        width: unset;
+    }
+    .categories .col3 {
+        width: 200px;
+    }
+    .categories .col3 .top-img {
+        width: 75px;
+        top: -20%;
+    }
+    .ZX9, .ZX9-text {
+        width: unset;
+    }
+    .ZX9 {
+        position: unset;
+    }
+    .ZX9 img {
+        width: 200px;
+        height: 230px;
+    }
+    .ZX9-text {
+        color: #fff;
+        position: unset;
+        text-align: center;
+        width: 340px;
+        transform: unset;
+    }
+    .speakerZX9 {
+        height: 720px;
+    }
+    .speakerZX9 .row2 {
+        height: 720px;
+        position: unset;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ZX9-text p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+        font-family: "MonropeRegular";
+        opacity: 0.75;
+    }
+    .speakerZX7 {
+        background: url(images/tablet-bg-zx7.png) no-repeat;
+    }
+    .ear2 {
+        background: url(images/tablet-bg-yx1.jpg);
+    }
+    .ear22 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: unset;
+    }
+    .decription {
+        height: unset;
+    }
+    .descripInfo .row {
+        flex-direction: column-reverse;
+    }
+    .descripInfo .rowImg {
+       height: 300px;
+       margin-bottom: 60px;
+    }
+    .rowText {
+        width: unset;
+        text-align: center;
+    }
+    .foot nav {
+      flex-direction: column;
+      align-items: unset;
+    }
+    footer .navbar{
+        display: block;
+        margin-top: 30px;
+    }
+    .foot .footText {
+        width: unset;
+    }
+    .product {
+        margin-bottom: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+        text-align: center;
+    }
+    .product-img, .product-info {
+        flex-basis: 100%;
+        max-width: unset;
+    }
+    .product-img {
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .product-img img {
+        height: 240px;
+    }
+    .product.reversed {
+        flex-direction: column;
+    }
+    .product-detail .product {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .product-detail .product .product-img {
+        height: 560px;
+    }
+    .product-detail .product-img, .product-detail .product-info {
+        flex-basis: 48%;
+        max-width: 500px;
+    }
+    .feature-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .feature-box .feature-left {
+       margin-bottom: 80px;
+    }
+    .feature-box .feature-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .may-like-content .product-box {
+        width: 215px;
+    }
+    .checkout-form {
+        flex-direction: column;
+    }
+    .billing {
+        margin-bottom: 40px;
+    } 
+    .summary {
+        width: 100%;
+    }
+}
+
+/*--------------MOBILE SCREEN-----------------------*/
+
+@media screen and (max-width:750px) {
+    header {
+        background-position: center;
+    }
+    .categories-list .row {
+        flex-direction: column;
+    }
+    .categories-list .col3 {
+        margin-bottom: 80px;
+    }
+    .speakerZX7 {
+        background-position: center;
+    }
+    .earphone .row {
+        flex-direction: column;
+    }
+    .ear2 {
+        background-position: center ;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .ear22 {
+        width: 100%;
+    }
+    .rowImg {
+        width: 330px;
+    }
+    .rowImg img {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .navbar ul li {
+        display: block;
+        margin-bottom: 16px;
+    }
+    .copy-social {
+        flex-direction: column;
+    }
+    .copyright {
+        margin-bottom: 40px;
+    }
+    .foot::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .product-detail .product {
+        flex-direction: column;
+    }
+    .increase-decrease {
+        margin-bottom: 16px;
+    }
+    .feature-right {
+        flex-direction: column;
+    }
+    .gallery-box {
+        flex-direction: column;
+        min-height: 800px;
+    }
+    .box-left {
+        flex-direction: column;
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .box-left .image1 {
+        margin-bottom: 25px;
+    }
+    .box-left .image1, .box-left .image2 {
+        height: 100%;
+
+    }
+    .may-like-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .may-like-content .product-img {
+        margin-top: 50px;
+    }
+    .may-like-text {
+        margin-bottom: -50px;
+    }
+    form {
+        flex-direction: column;
+    }
+    .payment-options {
+        margin-top: 16px;
+    }
+    .delivery {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .delivery p {
+        margin-top: 16px;
+    }
+}
