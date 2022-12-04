@@ -317,7 +317,7 @@ nav .cart img {
     transition: all 250ms
 }
    
-.speakerZX7 button:hover, .ear22 button:hover {
+.speakerZX7 button:hover a, .ear22 button:hover a {
     color: #e8e8e8;
 }
    
@@ -344,7 +344,9 @@ nav .cart img {
     align-items: center;
     padding-left: 10%;
 }
-
+.speakerZX7 button a, .ear22 button a {
+    color: #000000;
+}
 
 /*------------------------------Description-------------------*/
 
@@ -1028,7 +1030,7 @@ form small, .label.e-Money {
     padding: 30px;
     position: fixed;
     top: 120px;
-    right: -100%;
+    right: -200%;
     background: #fff;
     animation: fade 1s;
     

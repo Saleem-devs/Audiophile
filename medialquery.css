@@ -2,6 +2,14 @@
     .navbar {
         display: none;
     }
+    .hero h1, .ZX9-text h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .rowText h3, .product-info h2 {
+        font-size: 35px;
+        line-height: 38px;
+    }
     .menu {
         display: block;
         cursor: pointer;
@@ -15,7 +23,7 @@
         width: unset;
     }
     .categories .col3 {
-        width: 200px;
+        width: 100%;
     }
     .categories .col3 .top-img {
         width: 75px;
@@ -35,7 +43,7 @@
         color: #fff;
         position: unset;
         text-align: center;
-        width: 340px;
+        width: 100%;
         transform: unset;
     }
     .speakerZX9 {
@@ -145,7 +153,7 @@
         align-items: flex-start;
     }
     .may-like-content .product-box {
-        width: 215px;
+        width: 100%;
     }
     .checkout-form {
         flex-direction: column;
@@ -183,9 +191,6 @@
     }
     .ear22 {
         width: 100%;
-    }
-    .rowImg {
-        width: 330px;
     }
     .rowImg img {
         width: 100%;
@@ -254,5 +259,20 @@
     }
     .delivery p {
         margin-top: 16px;
+    }
+}
+
+/*---------------Galaxy Fold------------------*/
+@media screen and (max-width: 300px) {
+    .speakerZX7 h3, .ear22 h3, .title h1 {
+        font-size: 23px;
+    }
+    .hero h1, .ZX9-text h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .rowText h3, .product-info h2 {
+        font-size: 30px;
+        line-height: 35px;
     }
 }
